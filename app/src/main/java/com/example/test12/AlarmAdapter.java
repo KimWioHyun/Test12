@@ -22,7 +22,6 @@ public class AlarmAdapter extends BaseAdapter {
 
     String currentID; // 현재 로그인한 ID
 
-
     public AlarmAdapter(Context context, int layout, List<AlarmVO> data) {
         this.context = context;
         this.layout = layout;
